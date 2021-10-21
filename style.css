@@ -97,9 +97,21 @@
     transform: scale(1.5);
 }
 
+.fa-circle-notch::before{
+    content: '\f1ce';
+}
+
 .ex-10-icon {
     font-size: 60px;
+    animation: spin 2s linear infinite;
 }
+
+@keyframes spin{
+    0%{
+        transform: rotate(1turn);
+    }
+}
+
 .ex-11-icon {
     font-size: 60px;
 }
