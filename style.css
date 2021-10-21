@@ -69,7 +69,14 @@
     filter: grayscale(100%);
 }
 
+.ex-7-img{
+    transition: 1.5s;
+}
 
+.ex-7-img:hover{
+    filter: grayscale(40%);
+    filter: sepia(60%);
+}
 
 .ex-9-img {
     margin: 50px 100px;
